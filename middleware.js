@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const secret = 'tu_secreto_jwt'; // Asegúrate de usar un secreto seguro
+const secret = 'tu_secreto_jwt';
 
 const jwtMiddleware = (req, res, next) => {
     const token = req.headers['authorization'];
